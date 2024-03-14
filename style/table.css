@@ -1,0 +1,285 @@
+section {
+    display: flex;
+}
+
+
+.heading {
+    display: flex;
+    width: 1440px;
+    height: 100px;
+    background: #FFFFFF;
+}
+
+.logo {
+    width: 125px;
+    height: 48px;
+    margin-top: 26px;
+    margin-left: 60px;
+    gap: 1px;
+}
+.logo_name{
+    margin:0;
+    width: 98px;
+    height: 33px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+.logo_surname {
+    margin:0;
+    width: 125px;
+    height: 14px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00000066;
+}
+.user_avatar_small {
+    width: 60px;
+    height: 60px;
+    margin-left: 1080px;
+    margin-top: 20px;
+    background-image: url("/image/Ellipse.png");
+}
+.username_avatar_small {
+    width: 15px;
+    height: 24px;
+    margin-top: 18px;
+    margin-left: 17px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+    color: #000000;
+}
+.menu_btn{
+    width: 24px;
+    height: 24px;
+    margin-top: 38px;
+    margin-left: 30px;
+    background-image: url("/image/down.png");
+}
+
+body{
+    background: #F0F0F0
+}
+.welcome_block{
+    width: 1320px;
+    height: 170px;
+    margin-top: 60px;
+    margin-left: 60px;
+    padding: 0px 0px 40px 0px;
+    border-width: 0px 0px 2px 0px;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 2px solid #0000001A;
+    gap: 30px;
+}
+.welcome_message{
+    width: 1010px;
+    height: 130px;
+    margin-left: 33px;
+    justify-content: space-between;
+}
+.user_avatar_big{
+    width: 130px;
+    height: 130px;
+    background-image: url("/image/Ellipse 20.png");
+}
+.username_avatar_big{
+    width: 50px;
+    margin-top: 49px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: center;
+    color: #000000;
+}
+.welcome_p{
+    width: 495px;
+    height: 49px;
+    margin:0;
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+.message_p{
+    width: 680px;
+    height: 42px;
+    margin:0;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#B4B4B4;
+}
+
+
+.table{
+    margin-left: 60px;
+    display: block;
+}
+.table_p{
+    width: 210px;
+    height: 33px;
+    margin-top: 60px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    text: #000000;
+}
+
+.table_skin{
+    display: flex;
+    background:#FFFFFF;
+    width: 1320px;
+}
+
+.table_month{
+    width: 250px;
+    height: 894px;
+    top: 38px;
+    border: 0px, 1px, 0px, 0px;
+    background: #FFFFFF;
+    border-right: 1px solid #DADCE0;
+}
+.chose_month{
+    display: flex;
+    width: 250px;
+    height: 47px;
+    padding: 10px, 16px, 10px, 16px;
+    gap: 10px;
+}
+.month{
+    width: 46px;
+    height: 27px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333;
+    margin:  10px 0px 10px 16px
+}
+.next_back{
+    display: flex;
+    width: 58px;
+    height: 24px;
+    gap: 10px;
+    margin: 10px 0px 13px 114px;
+}
+.next{
+    width: 24px;
+    height: 24px;
+    background-image: url("/image/left.png");
+}
+.back{
+    width: 24px;
+    height: 24px;
+    background-image: url("/image/right.png");
+}
+.chose_date{
+    width: 250px;
+    height: 218px;
+    padding: 10px;
+    gap: 10px;
+}
+.table_date{
+    width: 230px;
+    height: 198px;
+}
+.table_col{
+    width: 34px;
+    height: 33px;
+    padding: 4px;
+    gap: 10px;
+    color: #F0F0F0;
+}
+.table_row{
+    width: 30px;
+    height: 33px;
+    padding: 4px;
+    gap: 10px;
+    color: #333333;
+}
+.next_month{
+    color: #F0F0F0;
+}
+.table_date{
+    width: 12px;
+    height: 15px;
+    padding: 5px;
+    border-radius: 99px;
+    gap: 10px;
+}
+.now_day{
+    background-image: url("/image/Frame 45.png");
+}
+.table_date_head{
+    display: flex;
+    width: 1070px;
+    height: 77px;
+    justify: space-between;
+}
+.full_date{
+    width:  249px;
+    height:  45px;
+    gap: 10px;
+    margin: 16px 0px 16px 16px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333;
+}
+.this_week{
+    font-weight: bolder;
+}
+.chose_week{
+    width: 80px;
+    height: 35px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px;
+    gap: 4px;
+    border: 1px solid #000000;
+    margin: 5px 0px 5px 709px;
+}
+.week_name{
+
+}
+.week_menu{
+    background-image: url("/image/down.png");
+}
